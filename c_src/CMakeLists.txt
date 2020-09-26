@@ -248,7 +248,7 @@ target_link_libraries(
     ${ErlangRocksDBNIF_TARGET}
     PRIVATE
     ${TARGET_LINKER_OPTIONS}
-    ${ERLANG_ERL_INTERFACE_LIB}
+  #  ${ERLANG_ERL_INTERFACE_LIB}
     ${ERLANG_EI_LIB}
     ${ROCKSDB_LIBRARIES}
     ${ZSTD_LIBRARY}
